@@ -36,9 +36,16 @@
       <version>1.2.5</version>
       <scope>test</scope>
     </dependency>
+    <!-- Spark Core相关依赖 2017-09-14 易者悠也-->
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-core_2.11</artifactId>
+      <version>2.2.0</version>
+    </dependency>
+    <!-- Spark SQL相关依赖 2017-09-15 易者悠也-->
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-sql_2.11</artifactId>
       <version>2.2.0</version>
     </dependency>
   </dependencies>
