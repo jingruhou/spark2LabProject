@@ -1,10 +1,18 @@
 package com.xunfang.spark2.SparkSQL
 
+import org.apache.log4j.{Level, Logger}
+
 import org.apache.spark.sql.SparkSession
 
 
 object SqlSample {
   def main(args: Array[String]): Unit = {
+
+    /**
+      * 添加日志打印级别
+      */
+    Logger.getLogger("org").setLevel(Level.ERROR)
+
     /**
       * 初始化Spark SQL环境配置
       */
