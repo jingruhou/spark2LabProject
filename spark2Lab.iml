@@ -164,9 +164,6 @@
     <orderEntry type="library" name="Maven: org.apache.parquet:parquet-format:2.3.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.parquet:parquet-jackson:1.8.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-mllib_2.11:2.2.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.spark:spark-graphx_2.11:2.2.0" level="project" />
-    <orderEntry type="library" name="Maven: com.github.fommil.netlib:core:1.1.2" level="project" />
-    <orderEntry type="library" name="Maven: net.sourceforge.f2j:arpack_combined_all:0.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-mllib-local_2.11:2.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.scalanlp:breeze_2.11:0.13.1" level="project" />
     <orderEntry type="library" name="Maven: org.scalanlp:breeze-macros_2.11:0.13.1" level="project" />
@@ -180,5 +177,8 @@
     <orderEntry type="library" name="Maven: org.jpmml:pmml-model:1.2.15" level="project" />
     <orderEntry type="library" name="Maven: org.jpmml:pmml-schema:1.2.15" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-streaming_2.11:2.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.spark:spark-graphx_2.11:2.2.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.fommil.netlib:core:1.1.2" level="project" />
+    <orderEntry type="library" name="Maven: net.sourceforge.f2j:arpack_combined_all:0.1" level="project" />
   </component>
 </module>
