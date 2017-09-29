@@ -20,5 +20,13 @@ object sample {
       * 打印数据
       */
     distData.foreach(println)
+
+    /**
+      * 2017-09-29 新环境测试
+      */
+    val data1 = Array(9,8,7,6,5,4)
+    val distData1 = sc.parallelize(data1)
+
+    distData1.foreach(println)
   }
 }
