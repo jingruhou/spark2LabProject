@@ -20,5 +20,9 @@ object sample {
       * 打印数据
       */
     distData.foreach(println)
+
+    distData.foreach(item => println("测试：" + item))
+
+
   }
 }
