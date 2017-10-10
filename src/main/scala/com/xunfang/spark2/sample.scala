@@ -21,8 +21,12 @@ object sample {
       */
     distData.foreach(println)
 
-    distData.foreach(item => println("测试：" + item))
+    /**
+      * 2017-09-29 新环境测试
+      */
+    val data1 = Array(9,8,7,6,5,4)
+    val distData1 = sc.parallelize(data1)
 
-
+    distData1.foreach(println)
   }
 }
